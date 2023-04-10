@@ -11,16 +11,12 @@
 
 .footerLista {
     list-style: none;
+    text-align: center;
 }
 
 .footerLista li {
     padding: 0.5rem 1rem;
-}
-
-.footerLink {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+    text-align: center;
 }
 
 .footerLink:hover{
