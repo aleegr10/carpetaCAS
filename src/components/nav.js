@@ -48,8 +48,8 @@ class Nav extends Component {
             <div className='barraNav'>
                 <nav className='nav'>
                     <ul className='lista'>
-                        <li><Link to="/" onClick={scrollUp} className="link">INICIO</Link></li>
-                        <li><Link to='/' onClick={scrollCAS} className='link'>¿QUÉ ES CAS?</Link></li>
+                        <li><Link to="/carpetaCAS" onClick={scrollUp} className="link">INICIO</Link></li>
+                        <li><Link to='/carpetaCAS' onClick={scrollCAS} className='link'>¿QUÉ ES CAS?</Link></li>
                         <li><Link to="/perfil" onClick={scrollUp} className="link">PERFIL</Link></li>
                         <li className='menuDesp'>
                             <Link to="/experiencias" onClick={scrollUp} className="link">EXPERIENCIAS</Link>
@@ -67,7 +67,7 @@ class Nav extends Component {
                 </nav>
             </div>
                 <Routes>
-                    <Route exact path="/" element={<Inicio />} />
+                    <Route exact path="/carpetaCAS" element={<Inicio />} />
                     <Route exact path="/perfil" element={<Perfil />} />
                     <Route exact path="/experiencias" element={<Experiencias />} />
                     {/*  */}
