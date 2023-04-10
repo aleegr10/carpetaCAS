@@ -17,12 +17,12 @@ class Footer extends Component {
                     <h1>APARTADOS WEB</h1>
                     <nav className='footerNav'>
                         <ul className='footerLista'>
-                            <li><a href="./carpetaCAS" className="footerLink">INICIO</a></li>
-                            <li><a href="./perfil" className="footerLink">PERFIL</a></li>
-                            <li><a href="./experiencias" className="footerLink">EXPERIENCIAS</a></li>
-                            <li><a href="./resultadosAprendizaje" className="footerLink">RESULTADOS DE APRENDIZAJE</a></li>
-                            <li><a href="./calendarioEquilibrio" className="footerLink">CALENDARIO EQUILIBRIO</a></li>
-                            <li><a href="./controlExperiencias" className="footerLink">CONTROL DE EXPERIENCIAS</a></li>
+                            <li><a href="/carpetaCAS" className="footerLink">INICIO</a></li>
+                            <li><a href="/perfil" className="footerLink">PERFIL</a></li>
+                            <li><a href="/experiencias" className="footerLink">EXPERIENCIAS</a></li>
+                            <li><a href="/resultadosAprendizaje" className="footerLink">RESULTADOS DE APRENDIZAJE</a></li>
+                            <li><a href="/calendarioEquilibrio" className="footerLink">CALENDARIO EQUILIBRIO</a></li>
+                            <li><a href="/controlExperiencias" className="footerLink">CONTROL DE EXPERIENCIAS</a></li>
                         </ul>
                     </nav>
                 </div>
