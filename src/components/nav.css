@@ -1,0 +1,77 @@
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    background-color: rgb(133, 203, 231);
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.lista li {
+    padding: 0.5rem 1rem;
+    font-size: 17px;
+    margin: 0 .75rem;
+    width: 90%;
+}
+
+.menuDesp {
+    position: relative;
+}
+
+.menuDesp:hover .desp {
+    display: block;
+    opacity: 1;
+}
+
+.desp {
+    background-color: white;
+    margin: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: rgb(133, 203, 231);
+}
+
+.desp li {
+    list-style: none;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: black;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.botonArriba{
+    cursor: pointer;
+    padding: 7px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    border: none;
+    background-color: rgb(133, 203, 231);
+    border-radius: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+}

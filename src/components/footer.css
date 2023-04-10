@@ -1,0 +1,32 @@
+.footer{
+    background-color: rgb(133, 203, 231);
+    text-align: center;
+    float: left;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+
+.footerLista {
+    list-style: none;
+}
+
+.footerLista li {
+    padding: 0.5rem 1rem;
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footerLink:hover{
+    color: black;
+}
+
+.footerNav{
+    bottom: 0;
+}

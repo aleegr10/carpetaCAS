@@ -1,0 +1,41 @@
+.imgInicio{
+    width: 80%;
+    display: inline;
+}
+
+.h1Header{
+    display: block;
+    font-size: 80px;
+    font-family: 'Pompiere';
+}
+
+.h1Nombre{
+    font-family: 'Amatic SC';
+    background-color: rgb(133, 203, 231);
+    font-size: 40px;
+}
+
+.inicio{
+    margin-top: 150px;
+}
+
+.tableHeader{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding-right: 100px;
+    line-height: 40px;
+}
+
+.tableImg{
+    width: 50%;
+    height: 100%;
+}
+
+td{
+    padding-right: 30px;
+}
+
+.footer{
+    bottom: 0;
+}
