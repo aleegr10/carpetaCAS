@@ -67,7 +67,7 @@ class Nav extends Component {
                 </nav>
             </div>
                 <Routes>
-                    <Route exact path="/carpetaCAS" element={<Inicio />} />
+                    <Route exact path="/" element={<Inicio />} />
                     <Route exact path="/perfil" element={<Perfil />} />
                     <Route exact path="/experiencias" element={<Experiencias />} />
                     {/*  */}
