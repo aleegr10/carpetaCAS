@@ -1,8 +1,10 @@
 import './experiencias.css';
+import { Link } from 'react-router-dom';
 import { Fade } from 'react-slideshow-image';
 import ReactPlayer from "react-player";
 import 'react-slideshow-image/dist/styles.css'
 import "bootstrap/dist/css/bootstrap.css";
+
 import imgDibuSon1 from '../components/images/dibuSon1.jpg';
 import imgDibuSon2 from '../components/images/dibuSon2.jpg';
 import imgDibuSon3 from '../components/images/dibuSon3.png';
@@ -246,12 +248,12 @@ const Experiencias = () => {
         <div className='experiencias'>
             <h1 className='expTitulo'>EXPERIENCIAS</h1>
 
-            <div className='expNav'>
-                <a href='/experiencias/creatividad' className='expEnlace'>CREATIVIDAD</a>
-                <a href='/experiencias/actividad' className='expEnlace'>ACTIVIDAD</a>
-                <a href='/experiencias/servicio' className='expEnlace'>SERVICIO</a>
-                <a href='/experiencias/proyectoRecogidaRopa' className='expEnlace'>PROYECTO RECOGIDA ROPA</a>
-            </div>
+            <nav className='expNav'>
+                <Link to='/experiencias/creatividad' className='expEnlace'>CREATIVIDAD</Link>
+                <Link to='/experiencias/actividad' className='expEnlace'>ACTIVIDAD</Link>
+                <Link to='/experiencias/servicio' className='expEnlace'>SERVICIO</Link>
+                <Link to='/experiencias/proyectoRecogidaRopa' className='expEnlace'>PROYECTO RECOGIDA ROPA</Link>
+            </nav>
             
             <h1>DIBUJANDO SONRISAS</h1>
             <div className='exp'>

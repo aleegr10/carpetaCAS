@@ -45,7 +45,6 @@ class Nav extends Component {
     render() {
         return (
             <BrowserRouter>
-            <div className='barraNav'>
                 <nav className='nav'>
                     <ul className='lista'>
                         <li><Link to="/carpetaCAS" onClick={scrollUp} className="link">INICIO</Link></li>
@@ -65,7 +64,6 @@ class Nav extends Component {
                         <li><Link to="/controlExperiencias" onClick={scrollUp} className="link">CONTROL DE EXPERIENCIAS</Link></li>
                     </ul>
                 </nav>
-            </div>
                 <Routes>
                     <Route exact path="/carpetaCAS" element={<Inicio />} />
                     <Route exact path="/perfil" element={<Perfil />} />
