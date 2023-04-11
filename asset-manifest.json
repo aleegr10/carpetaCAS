@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/carpetaCAS/static/css/main.3e796942.css",
-    "main.js": "/carpetaCAS/static/js/main.81c1641d.js",
+    "main.css": "/carpetaCAS/static/css/main.a1eed75e.css",
+    "main.js": "/carpetaCAS/static/js/main.553c51fe.js",
     "static/js/787.72af92ad.chunk.js": "/carpetaCAS/static/js/787.72af92ad.chunk.js",
     "static/media/aquagym.mp4": "/carpetaCAS/static/media/aquagym.2a90594f65267089f08e.mp4",
     "static/media/claseBaile2.mp4": "/carpetaCAS/static/media/claseBaile2.b65680edf1f9950c45e6.mp4",
@@ -65,12 +65,12 @@
     "static/media/calendario.png": "/carpetaCAS/static/media/calendario.82e35aca66ed089c800c.png",
     "static/media/semanaSanta4.jpg": "/carpetaCAS/static/media/semanaSanta4.c13777712e7453916355.jpg",
     "index.html": "/carpetaCAS/index.html",
-    "main.3e796942.css.map": "/carpetaCAS/static/css/main.3e796942.css.map",
-    "main.81c1641d.js.map": "/carpetaCAS/static/js/main.81c1641d.js.map",
+    "main.a1eed75e.css.map": "/carpetaCAS/static/css/main.a1eed75e.css.map",
+    "main.553c51fe.js.map": "/carpetaCAS/static/js/main.553c51fe.js.map",
     "787.72af92ad.chunk.js.map": "/carpetaCAS/static/js/787.72af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e796942.css",
-    "static/js/main.81c1641d.js"
+    "static/css/main.a1eed75e.css",
+    "static/js/main.553c51fe.js"
   ]
 }
