@@ -262,16 +262,6 @@ const Actividad = () => {
                 </div>
             </div>
 
-            <h1>TEATRO EN MISA</h1>
-            <div className='exp'>
-                <p className='expParrafo'>Esta experiencia consistió en elaborar un teatro que mostrará la amistad y el amor para niños de entre 6-14 años en la misa de los Salesianos Manuel Lora Tamayo y se realizó el 24 de abril. En ella, primero realizamos algunas manualidades para utilizarlas como símbolo en nuestro teatro además de crear todo el diálogo y la escenificación. Fue una experiencia muy bonita ya que era la primera vez que realizaba un teatro desde cero y gracias a la ayuda de mis amigos y la motivación que me nace al ser algo para los niños, fue una escena preciosa en la que tanto los niños como nosotros los actores disfrutamos y a mi parecer salió increíble. Me ilusionó mucho haber sido capaz de crear un teatro desde cero y la buena retroalimentación que recibí tras hacerlo, ya que todos nos agradecieron el esfuerzo y la dedicación empleada.</p>
-                <div className="expSlideContainer">
-                    <div className="expSlide">
-                        <img src={imgVolun3} alt={imgVolun3} className='expSlideImg' />
-                    </div>
-                </div>
-            </div>
-
             <h1>GIMNASIO</h1>
             <div className='exp'>
                 <p className='expParrafo'>Esta experiencia consistió en estar asistiendo al gimnasio Activaclub 3 veces a la semana durante 3 meses (junio, julio y agosto). Esta experiencia ha sido de las más importantes para mi ya que no realizaba nada de actividad física y esto afectaba tanto a mi salud física como a mi salud mental. Realizar deporte semanalmente me ayudó a reducir el estrés y también lo acompañe de una mejor alimentación así que mejore mi físico a uno más equilibrado. Esta experiencia fue dura ya que mi asma y mi poca movilidad a veces dificultaba mis entrenamientos pero también fue muy positivo ver mi progreso día tras día y verme capaz de realizar actividad física de forma regular ya que durante el curso me es imposible compatibilizar la actividad con las actividades extraescolares y las clases. Por lo que esta experiencia ha sido de las más significativas durante mi curso CAS.</p>

@@ -499,7 +499,7 @@ const Experiencias = () => {
             <div className='exp'>
                 <p className='expParrafo'>Esta experiencia consistió en asistir a una campamento de fé en el que realicé numerosas yinkanas y actividades en equipo desde el 11 de julio al 18 de este mes. Realicé muchas actividades diferentes pero me gustaría destacar:</p>
                 <ul className='listaCampamento'>
-                    <li>
+                    <li className='liCampamento'>
                         <h3>PARTIDO DE FÚTBOL</h3>
                         <div className='exp'>
                             <p className='expParrafo'>Era la primera vez que jugaba un partido de fútbol y hacerlo con personas que no conocía me hizo sentirme menos juzgada y dar lo mejor de mí durante este. Por ello, fue muy gratificante el juego en equipo ya que hizo que mejorara mis habilidades sociales y también aprendí mucho mi actividad y mis técnicas en dicho deporte.</p>
@@ -514,7 +514,7 @@ const Experiencias = () => {
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li className='liCampamento'>
                         <h3>GYMKANA POR GRUPOS</h3>
                         <div className='exp'>
                             <p className='expParrafo'>Esta trató de numerosos stands en los que había que realizar retos diferentes, todos ellos en equipo. Lo realicé con mi grupo en el cuál cada uno pertenecíamos a una provincia diferente o a una ciudad distinta. Por ello, formar parte de esto fue una oportunidad para conocer a personas nuevas y entablar relaciones muy bonitas. Además, para conseguir los retos debíamos participar todos y aportar cada uno de nuestra parte para superarlo y pasar al siguiente, por ello sentí que mi ayuda fue igual de necesaria que la del resto y pude valorar una vez más la importancia del trabajo en equipo, aunque se trate de personas desconocidas.</p>
@@ -529,7 +529,7 @@ const Experiencias = () => {
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li className='liCampamento'>
                         <h3>AQUAGYM</h3>
                         <div className='exp'>
                             <p className='expParrafo'>Consistió en realizar dos horas de aquagym en la piscina del pueblo. Esta experiencia me ayudó tanto con mi actividad física, ya que fue algo totalmente nuevo y divertido ya que no lo había realizado nunca y pasé un buen rato con mis nuevos amigos, como con mi timidez, ya que realizamos esta actividad delante del resto de personas que asistieron a la piscina pública ese día, por lo que tuve que dejar la vergüenza de lado y pasar un buen rato con mis amigos sin preocuparme por ello.</p>
