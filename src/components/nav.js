@@ -29,7 +29,7 @@ const scrollType = {
 const scrollCAS = () => {
     setTimeout(function() {
         window.scrollTo(0, 0)
-    }, 0);  
+    }, 0);
     setTimeout(function() {
         scroller.scrollTo("queEsCAS", scrollType)
     }, 500);  

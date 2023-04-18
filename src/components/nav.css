@@ -1,21 +1,20 @@
-.lista {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    list-style: none;
-    background-color: rgb(133, 203, 231);
-    margin-top: 0;
-    padding-top: 15px;
-    padding-bottom: 10px;
+.nav{
+    position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 1;
 }
 
-.lista li {
-    padding: 0.5rem 1rem;
-    font-size: 17px;
-    margin: 0 .75rem;
-    width: 90%;
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(133, 203, 231);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .menuDesp {
@@ -40,7 +39,8 @@
 
 .desp li {
     list-style: none;
-    color: white;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .link {
@@ -51,13 +51,6 @@
 
 .link:hover{
     color: black;
-}
-
-.nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
 }
 
 .botonArriba{

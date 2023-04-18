@@ -7,13 +7,13 @@ class Footer extends Component {
     render() {
         return (
             <div className='footer'>
-                <div>
+                <div className='footerDato'>
                     <h1>DATOS</h1>
                     <p><b>LUZ LÓPEZ CASTELAO</b></p>
                     <p><b>INTERESES: </b>naturaleza, moda y niños pequeños</p>
                     <p><b>OBJETIVOS: </b>superarme a mí misma principalmente en el aspecto de actividad</p>
                 </div>
-                <div>
+                <div className='footerDato'>
                     <h1>APARTADOS WEB</h1>
                     <nav className='footerNav'>
                         <ul className='footerLista'>
@@ -26,7 +26,7 @@ class Footer extends Component {
                         </ul>
                     </nav>
                 </div>
-                <div>
+                <div className='footerDato'>
                     <h1>PROYECTO BACHILLERATO INTERNACIONAL</h1>
                     <img src={imgIB} className='iconoContacto' alt="direccion" width="35%"/>
                 </div>

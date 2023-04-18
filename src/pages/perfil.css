@@ -1,10 +1,25 @@
 .perfil{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
-    margin: 19%;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 150px;
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
 }
+
+.perTitulo{
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+.perDatos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .linkPerfil{
     color: black;
 }
@@ -13,22 +28,10 @@ div{
     margin-bottom: 50px;
 }
 
-.perTitulo{
-    margin-bottom: 50px;
-    font-size: 60px;
-    grid-column: 1 / span 2;
-}
-
 .imgPerfil{
-    height: 700px;
+    width: 40%;
     border-radius: 20px;
-    grid-row: 2;
-    margin-right: 10px;
-    margin-top: 20px;
 }
 
 .descripcion{
-    grid-row: 2;
-    grid-column: 2;
-    margin-left: 10px;
 }
