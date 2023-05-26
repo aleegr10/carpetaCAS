@@ -1,17 +1,21 @@
-.controlExp{
+.recogidaRopa{
     text-align: center;
     margin: 2%;
     margin-top: 100px;
 }
 
-.conTitulo{
+.titulo{
     font-size: 80px;
     margin-top: 120px;
     width: 100%;
     margin-bottom: 50px;
 }
 
-.conSlideContainer{
+.recParrafo{
+    margin-bottom: 100px;
+}
+
+.SlideContainer{
     display: flex;
     height: 40rem;
     gap: 1rem;
@@ -19,19 +23,18 @@
     margin: auto;
 }
 
-.conSlide{
+.Slide{
     flex: 1;
     border-radius: 1rem;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: auto 100%;
     transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    width: 100%;
+    
 }
 
-.conSlide:hover{
+.Slide:hover{
     flex: 5;
-}
-
-.listaCampamento{
-    list-style: none;
 }

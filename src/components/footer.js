@@ -11,7 +11,7 @@ class Footer extends Component {
                     <h1>DATOS</h1>
                     <p><b>LUZ LÓPEZ CASTELAO</b></p>
                     <p><b>INTERESES: </b>naturaleza, moda y niños pequeños</p>
-                    <p><b>OBJETIVOS: </b>superarme a mí misma principalmente en el aspecto de actividad</p>
+                    <p><b>OBJETIVOS: </b>superación personal, principalmente en el aspecto de actividad</p>
                 </div>
                 <div className='footerDato'>
                     <h1>APARTADOS WEB</h1>
@@ -20,7 +20,7 @@ class Footer extends Component {
                             <li><p>INICIO</p></li>
                             <li><p>PERFIL</p></li>
                             <li><p>EXPERIENCIAS</p></li>
-                            <li><p>RESULTADOS DE APRENDIZAJE</p></li>
+                            <li><p>PROYECTO RECOGIDA DE ROPA</p></li>
                             <li><p>CALENDARIO EQUILIBRIO</p></li>
                             <li><p>CONTROL DE EXPERIENCIAS</p></li>
                         </ul>

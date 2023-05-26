@@ -1,6 +1,7 @@
 .actividad{
     text-align: center;
-    margin: 7%;
+    margin: 2%;
+    margin-top: 100px;
 }
 
 .actTitulo{
@@ -11,44 +12,26 @@
 }
 
 .actSlideContainer{
-    position: sticky;
+    display: flex;
+    height: 40rem;
+    gap: 1rem;
+    width: 40%;
     margin: auto;
-    width: 20%;
 }
 
 .actSlide{
-    display: flex;
-    width: 100%;
-    height: 80%;
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
 }
 
-.actSlide > div{
-    width: 100%;
-}
-
-.actSlideContainerVideo{
-    position: sticky;
-    margin: auto;
-    width: 38%;
-}
-
-.actSlideImg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.actSlideVideo{
-    display: flex;
-    width: 100%;
-    height: 80%;
-}
-
-.fade{
-    align-self: center;
+.actSlide:hover{
+    flex: 5;
 }
 
 .listaCampamento{
     list-style: none;
-    margin-top: 0;
 }

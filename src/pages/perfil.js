@@ -24,10 +24,11 @@ const scroll = () => {
 const Perfil = () => {
     return (
         <div className='perfil'>
-            
             <h1 className='perTitulo'>PERFIL</h1>
             <div className='perDatos'>
-                <img src={foto} className="imgPerfil"></img>
+                <div className='imagen'>
+                    <img src={foto} className="imgPerfil"></img>
+                </div>
 
                 <div className='descripcion'>
                     <div>

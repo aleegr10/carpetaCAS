@@ -17,13 +17,13 @@ const QueEsCAS = () => {
 
       <ul className='puntos'>
         <li className='punto'>
-          <b>CREATIVIDAD. </b> Por un lado, la ampliación y exploración de ideas que llevan a un pensamiento o actuación creativa, original o interpretativa.
+          - <b>CREATIVIDAD. </b> Por un lado, la ampliación y exploración de ideas que llevan a un pensamiento o actuación creativa, original o interpretativa.
         </li>
         <li className='punto'>
-          <b>ACCIÓN O ACTIVIDAD. </b> También, actividades que conllevan un desafío o esfuerzo físico que ayudan a mantener un estilo de vida saludable y complementan las tareas académicas.
+          - <b>ACCIÓN O ACTIVIDAD. </b> También, actividades que conllevan un desafío o esfuerzo físico que ayudan a mantener un estilo de vida saludable y complementan las tareas académicas.
         </li>
         <li className='punto'>
-          <b>SERVICIO. </b> Además, un intercambio colaborativo con la comunidad en respuesta a una necesidad real, lo que para el alumno significa un aprendizaje.
+          - <b>SERVICIO. </b> Además, un intercambio colaborativo con la comunidad en respuesta a una necesidad real, lo que para el alumno significa un aprendizaje.
         </li>
       </ul>
 
@@ -33,25 +33,25 @@ const QueEsCAS = () => {
 
       <ul className='puntos'>
         <li className='punto'>
-          Identificar las <b>habilidades fuertes y débiles</b> en uno mismo.
+          - Identificar las <b>habilidades fuertes y débiles</b> en uno mismo.
         </li>
         <li className='punto'>
-          Mostrar que se han afrontado desafíos y que se han desarrollado <b>nuevas habilidades</b>.
+          - Mostrar que se han afrontado desafíos y que se han desarrollado <b>nuevas habilidades</b>.
         </li>
         <li className='punto'>
-          <b>Capacidad</b> de articular las etapas de una experiencia de CAS.
+          - <b>Capacidad</b> de articular las etapas de una experiencia de CAS.
         </li>
         <li className='punto'>
-          Mostrar <b>perseverancia y compromiso</b> en las experiencias.
+          - Mostrar <b>perseverancia y compromiso</b> en las experiencias.
         </li>
         <li className='punto'>
-          <b>Capacidad</b> de trabajo en equipo y reconocimiento de sus ventajas.
+          - <b>Capacidad</b> de trabajo en equipo y reconocimiento de sus ventajas.
         </li>
         <li className='punto'>
-          <b>Compromiso</b> en cuestiones internacionales.
+          - <b>Compromiso</b> en cuestiones internacionales.
         </li>
         <li className='punto'>
-          Conciencia de las <b>consecuencias de las decisiones</b>.
+          - Conciencia de las <b>consecuencias de las decisiones</b>.
         </li>
       </ul> 
 

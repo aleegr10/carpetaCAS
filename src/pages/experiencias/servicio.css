@@ -1,6 +1,7 @@
 .servicio{
     text-align: center;
-    margin: 7%;
+    margin: 2%;
+    margin-top: 100px;
 }
 
 .serTitulo{
@@ -11,39 +12,22 @@
 }
 
 .serSlideContainer{
-    position: sticky;
+    display: flex;
+    height: 40rem;
+    gap: 1rem;
+    width: 40%;
     margin: auto;
-    width: 20%;
 }
 
 .serSlide{
-    display: flex;
-    width: 100%;
-    height: 80%;
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
 }
 
-.serSlide > div{
-    width: 100%;
-}
-
-.serSlideContainerVideo{
-    position: sticky;
-    margin: auto;
-    width: 38%;
-}
-
-.serSlideImg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.serSlideVideo{
-    display: flex;
-    width: 100%;
-    height: 80%;
-}
-
-.fade{
-    align-self: center;
+.serSlide:hover{
+    flex: 5;
 }

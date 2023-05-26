@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Routes, Route, BrowserRouter, Link } from 'react-router-dom';
 import {scroller} from 'react-scroll'
 import './nav.css'
+
 import imgFlecha from '../components/images/imgFlecha.png'
 // Componentes para usar en las rutas
 import Inicio from '../pages/inicio';
@@ -11,12 +12,13 @@ import Experiencias from '../pages/experiencias';
 import Actividad from '../pages/experiencias/actividad';
 import Creatividad from '../pages/experiencias/creatividad';
 import Servicio from '../pages/experiencias/servicio';
-import ProyectoRecogidaRopa from '../pages/experiencias/proyectoRecogidaRopa';
-// 
-import ResultadosAprendizaje from '../pages/resultadosAprendizaje';
+//
+import ProyectoRecogidaRopa from '../pages/proyectoRecogidaRopa';
 import CalendarioEquilibrio from '../pages/calendarioEquilibrio';
 import ControlExperiencias from '../pages/controlExperiencias';
 import ErrorRuta from '../pages/errorRuta';
+//
+import iconoMenu from '../components/images/iconoMenu.png'
 
 
 const scrollType = {
@@ -56,12 +58,33 @@ class Nav extends Component {
                                 <li><Link to="/experiencias/creatividad" onClick={scrollUp} className="link">CREATIVIDAD</Link></li>
                                 <li><Link to="/experiencias/actividad" onClick={scrollUp} className="link">ACTIVIDAD</Link></li>
                                 <li><Link to="/experiencias/servicio" onClick={scrollUp} className="link">SERVICIO</Link></li>
-                                <li><Link to="/experiencias/proyectoRecogidaRopa" onClick={scrollUp} className="link">PROYECTO RECOGIDA ROPA</Link></li>
                             </ul>
                         </li>
-                        <li><Link to="/resultadosAprendizaje" onClick={scrollUp} className="link">RESULTADOS DE APRENDIZAJE</Link></li>
+                        <li><Link to="/experiencias/proyectoRecogidaRopa" onClick={scrollUp} className="link">PROYECTO RECOGIDA DE ROPA</Link></li>
                         <li><Link to="/calendarioEquilibrio" onClick={scrollUp} className="link">CALENDARIO EQUILIBRIO</Link></li>
                         <li><Link to="/controlExperiencias" onClick={scrollUp} className="link">CONTROL DE EXPERIENCIAS</Link></li>
+                    </ul>
+                    <ul className='iconoLista'>
+                        <li className='menuDespIcono'>
+                            <img className='iconoMenu' src={iconoMenu} alt='iconoMenu'/>
+                            <ul className='despIcono'>
+                                <li><Link to="/carpetaCAS" onClick={scrollUp} className="link">INICIO</Link></li>
+                                <li><Link to='/carpetaCAS' onClick={scrollCAS} className='link'>¿QUÉ ES CAS?</Link></li>
+                                <li><Link to="/perfil" onClick={scrollUp} className="link">PERFIL</Link></li>
+                                <li className='menuDesp'>
+                                    <Link to="/experiencias" onClick={scrollUp} className="link">EXPERIENCIAS</Link>
+                                    <ul className='desp'>
+                                        <li><Link to="/experiencias/creatividad" onClick={scrollUp} className="link">CREATIVIDAD</Link></li>
+                                        <li><Link to="/experiencias/actividad" onClick={scrollUp} className="link">ACTIVIDAD</Link></li>
+                                        <li><Link to="/experiencias/servicio" onClick={scrollUp} className="link">SERVICIO</Link></li>
+                                    </ul>
+                                </li>
+                                <li><Link to="/experiencias/proyectoRecogidaRopa" onClick={scrollUp} className="link">PROYECTO RECOGIDA DE ROPA</Link></li>
+                                <li><Link to="/calendarioEquilibrio" onClick={scrollUp} className="link">CALENDARIO EQUILIBRIO</Link></li>
+                                <li><Link to="/controlExperiencias" onClick={scrollUp} className="link">CONTROL DE EXPERIENCIAS</Link></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </nav>
                 <Routes>
@@ -72,9 +95,8 @@ class Nav extends Component {
                     <Route exact path="/experiencias/creatividad" element={<Creatividad />} />
                     <Route exact path="/experiencias/actividad" element={<Actividad />} />
                     <Route exact path="/experiencias/servicio" element={<Servicio />} />
-                    <Route exact path="/experiencias/proyectoRecogidaRopa" element={<ProyectoRecogidaRopa />} />
                     {/*  */}
-                    <Route exact path="/resultadosAprendizaje" element={<ResultadosAprendizaje />} />
+                    <Route exact path="/experiencias/proyectoRecogidaRopa" element={<ProyectoRecogidaRopa />} />
                     <Route exact path="/calendarioEquilibrio" element={<CalendarioEquilibrio />} />
                     <Route exact path="/controlExperiencias" element={<ControlExperiencias />} />
                     <Route path="*" element={<ErrorRuta />} />
