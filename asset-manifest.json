@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/carpetaCAS/static/css/main.cd9cfa96.css",
-    "main.js": "/carpetaCAS/static/js/main.128cb48a.js",
+    "main.css": "/carpetaCAS/static/css/main.afbfc5be.css",
+    "main.js": "/carpetaCAS/static/js/main.1bed0e83.js",
     "static/js/787.72af92ad.chunk.js": "/carpetaCAS/static/js/787.72af92ad.chunk.js",
     "static/media/aquagym.mp4": "/carpetaCAS/static/media/aquagym.2a90594f65267089f08e.mp4",
     "static/media/claseBaile2.mp4": "/carpetaCAS/static/media/claseBaile2.b65680edf1f9950c45e6.mp4",
@@ -21,6 +21,8 @@
     "static/media/rutaBosque1.jpg": "/carpetaCAS/static/media/rutaBosque1.93fb0ea5f944bfe7f598.jpg",
     "static/media/bollitos3.jpg": "/carpetaCAS/static/media/bollitos3.70c2a0aabf83d70ae86f.jpg",
     "static/media/dibuSon2.jpg": "/carpetaCAS/static/media/dibuSon2.927d7620da0ba9634493.jpg",
+    "static/media/recogidaRopa4.jpg": "/carpetaCAS/static/media/recogidaRopa4.aa72c88f52307ecaa31d.jpg",
+    "static/media/recogidaRopa3.jpg": "/carpetaCAS/static/media/recogidaRopa3.b317fe6ca71e3c243007.jpg",
     "static/media/volun1.jpg": "/carpetaCAS/static/media/volun1.5144846cc836fe975e99.jpg",
     "static/media/dibuSon1.jpg": "/carpetaCAS/static/media/dibuSon1.6d94b4e1c4287f0ea2bf.jpg",
     "static/media/bollitos2.jpg": "/carpetaCAS/static/media/bollitos2.7ca6aa085a702fc2c343.jpg",
@@ -31,9 +33,11 @@
     "static/media/graduacion1.jpg": "/carpetaCAS/static/media/graduacion1.4d180fa6035393f44c5e.jpg",
     "static/media/donBosco1.jpg": "/carpetaCAS/static/media/donBosco1.1e763e0c70a93a035e64.jpg",
     "static/media/grupos1.jpg": "/carpetaCAS/static/media/grupos1.b67efdb221cf3f881ddf.jpg",
-    "static/media/gymkana.jpg": "/carpetaCAS/static/media/gymkana.bfa052ae868005e20915.jpg",
+    "static/media/recogidaRopa2.jpg": "/carpetaCAS/static/media/recogidaRopa2.22d329f5c0ed2b3cfbf2.jpg",
+    "static/media/gymkhana.jpg": "/carpetaCAS/static/media/gymkhana.bfa052ae868005e20915.jpg",
     "static/media/sanValentin.jpg": "/carpetaCAS/static/media/sanValentin.7480fdaf14f500082633.jpg",
     "static/media/decoracion2.jpg": "/carpetaCAS/static/media/decoracion2.0c51be54161bee902ea2.jpg",
+    "static/media/recogidaRopa1.jpg": "/carpetaCAS/static/media/recogidaRopa1.fe0d640044508a4c8b7b.jpg",
     "static/media/recogidaJuguetes.jpg": "/carpetaCAS/static/media/recogidaJuguetes.e2a2580e673b2b97d09a.jpg",
     "static/media/decoracion1.jpg": "/carpetaCAS/static/media/decoracion1.4db47fbda3e3565ea013.jpg",
     "static/media/semanaSanta2.jpg": "/carpetaCAS/static/media/semanaSanta2.97bc2f33083a30fdac86.jpg",
@@ -62,15 +66,15 @@
     "static/media/rutaBosque4.jpg": "/carpetaCAS/static/media/rutaBosque4.482d1b8ab5da716a8f5a.jpg",
     "static/media/gatitos1.jpg": "/carpetaCAS/static/media/gatitos1.6874c913fe49e1bd7288.jpg",
     "static/media/imgIB.png": "/carpetaCAS/static/media/imgIB.098edfc186ce50f9fca0.png",
-    "static/media/calendario.png": "/carpetaCAS/static/media/calendario.82e35aca66ed089c800c.png",
+    "static/media/calendario.png": "/carpetaCAS/static/media/calendario.b8c0346cdc0dab1c1841.png",
     "static/media/semanaSanta4.jpg": "/carpetaCAS/static/media/semanaSanta4.c13777712e7453916355.jpg",
     "index.html": "/carpetaCAS/index.html",
-    "main.cd9cfa96.css.map": "/carpetaCAS/static/css/main.cd9cfa96.css.map",
-    "main.128cb48a.js.map": "/carpetaCAS/static/js/main.128cb48a.js.map",
+    "main.afbfc5be.css.map": "/carpetaCAS/static/css/main.afbfc5be.css.map",
+    "main.1bed0e83.js.map": "/carpetaCAS/static/js/main.1bed0e83.js.map",
     "787.72af92ad.chunk.js.map": "/carpetaCAS/static/js/787.72af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd9cfa96.css",
-    "static/js/main.128cb48a.js"
+    "static/css/main.afbfc5be.css",
+    "static/js/main.1bed0e83.js"
   ]
 }
